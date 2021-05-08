@@ -1,0 +1,345 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 16367 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\UnityEditor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63151
+Successfully changed project path to: E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
+E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'E:/UnityEditor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/UnityEditor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001403 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.246 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 2.481200 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.151000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dced07946141a818ed93299133b55e1') in 0.027690 seconds
+  Import took 0.030905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.007874 seconds.
+  path: Assets/Modern UI Pack/Scenes/Demo.unity
+  artifactKey: Guid(ac2a90141e0c9e94a9da39fbf04d5580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Scenes/Demo.unity using Guid(ac2a90141e0c9e94a9da39fbf04d5580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4a75d781339c2510f8df822ea9767e') in 0.001969 seconds
+  Import took 0.005593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 2.607700 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.942900 ms  DeleteObjects: 0.424800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 72.905776 seconds.
+  path: Assets/Modern UI Pack/Documentation/Documentation.pdf
+  artifactKey: Guid(b46ce24d79d9d2b41b8a42c32a826b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Documentation/Documentation.pdf using Guid(b46ce24d79d9d2b41b8a42c32a826b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668d7a16e7d30c8d3ac1982347a4a3c') in 0.059678 seconds
+  Import took 0.064217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.538563 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a736da710fc49c944a5d81ea9a1847d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a736da710fc49c944a5d81ea9a1847d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a94bcef3efcfb234ae070ac98d96f0') in 0.001623 seconds
+  Import took 0.005494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.643981 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(b3b45f9a2b6d74949ab98ef1999b202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(b3b45f9a2b6d74949ab98ef1999b202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0ccdbea50793b436046a077dd01c43') in 0.001939 seconds
+  Import took 0.005356 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 2.671000 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.970600 ms  DeleteObjects: 0.442800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1322.706277 seconds.
+  path: Assets/Modern UI Pack/Resources/MUIP Manager.asset
+  artifactKey: Guid(2a619a9609984be49b53b928dd94e61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/MUIP Manager.asset using Guid(2a619a9609984be49b53b928dd94e61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d159903b6d6d65f35946366b2108fd') in 0.107440 seconds
+  Import took 0.112060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.874571 seconds.
+  path: Assets/Modern UI Pack/Resources/Horizontal Selector
+  artifactKey: Guid(f4a40065b2ae5ec499b53073a496fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Horizontal Selector using Guid(f4a40065b2ae5ec499b53073a496fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cd9383ad7a8508d3648a1baeae77b8') in 0.001718 seconds
+  Import took 0.005163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/Modern UI Pack/Resources/Horizontal Selector
+  artifactKey: Guid(f4a40065b2ae5ec499b53073a496fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Horizontal Selector using Guid(f4a40065b2ae5ec499b53073a496fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cd9383ad7a8508d3648a1baeae77b8') in 0.001675 seconds
+  Import took 0.005167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.730790 seconds.
+  path: Assets/Modern UI Pack/Resources/Button
+  artifactKey: Guid(fd3f616fff1366b4390f5b23aed7c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button using Guid(fd3f616fff1366b4390f5b23aed7c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a818adbaa5a6c533bfa4fabff7b084c') in 0.001690 seconds
+  Import took 0.005241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.417949 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic
+  artifactKey: Guid(6c7b57a56bb88de4a993433f7ec44c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic using Guid(6c7b57a56bb88de4a993433f7ec44c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf92e889c34ed14a43a4f5c8d5fe85') in 0.001780 seconds
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009786 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic
+  artifactKey: Guid(6c7b57a56bb88de4a993433f7ec44c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic using Guid(6c7b57a56bb88de4a993433f7ec44c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf92e889c34ed14a43a4f5c8d5fe85') in 0.001596 seconds
+  Import took 0.005001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061276 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Blue.prefab
+  artifactKey: Guid(0f01a18a54c6cd440a6bef85c0a4ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Blue.prefab using Guid(0f01a18a54c6cd440a6bef85c0a4ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c242e3235d184c9801b23c4365a17d0d') in 0.112666 seconds
+  Import took 0.116539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Standard.prefab
+  artifactKey: Guid(37e463a4d4b7c7f4e9a55da535103169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Standard.prefab using Guid(37e463a4d4b7c7f4e9a55da535103169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1888a69695c3f4da7e20a1743102b87b') in 0.058627 seconds
+  Import took 0.061793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/White.prefab
+  artifactKey: Guid(00fb93f398d6ab646b81586940087692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/White.prefab using Guid(00fb93f398d6ab646b81586940087692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0376d14f399aa2070d0d09dbfd944503') in 0.042037 seconds
+  Import took 0.045252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Purple.prefab
+  artifactKey: Guid(5febcfad03f192f45ba070ab14cf6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Purple.prefab using Guid(5febcfad03f192f45ba070ab14cf6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf5033b81ad6766abb79ba4864b983a') in 0.043154 seconds
+  Import took 0.046469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Pink.prefab
+  artifactKey: Guid(c6a73aa55ded287468b2cfe91a838a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Pink.prefab using Guid(c6a73aa55ded287468b2cfe91a838a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b2401465f51a80c18844872bc45dbc') in 0.042338 seconds
+  Import took 0.045527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Gray.prefab
+  artifactKey: Guid(3dbd4bc71acbb1145b6e80827b858127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Gray.prefab using Guid(3dbd4bc71acbb1145b6e80827b858127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2002cbd21c987a7700af805fbf6b0afb') in 0.043896 seconds
+  Import took 0.047125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Night.prefab
+  artifactKey: Guid(1be0f75aaff35b84bbf25fde5ebb4cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Night.prefab using Guid(1be0f75aaff35b84bbf25fde5ebb4cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6ba1145ad1d06409ab86e38a62782f') in 0.043110 seconds
+  Import took 0.046224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Brown.prefab
+  artifactKey: Guid(d4220af058685be4cbeb9e5b6eca4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Brown.prefab using Guid(d4220af058685be4cbeb9e5b6eca4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7d8d754b0cc851027d87658a6694aa') in 0.045602 seconds
+  Import took 0.048748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Red.prefab
+  artifactKey: Guid(5bccc645041cec04a8b3b2d55e4c92e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Red.prefab using Guid(5bccc645041cec04a8b3b2d55e4c92e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4b701175a6b1c5ba605ff4f25f5404') in 0.042182 seconds
+  Import took 0.045411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Orange.prefab
+  artifactKey: Guid(a76e23e6dd72a8f4dbdefc46710338e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Orange.prefab using Guid(a76e23e6dd72a8f4dbdefc46710338e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e09082634c317b0e10e2df13c25215') in 0.043035 seconds
+  Import took 0.046258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Modern UI Pack/Resources/Button/Basic/Green.prefab
+  artifactKey: Guid(64325a7db649f3a42be36398b9d061bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Button/Basic/Green.prefab using Guid(64325a7db649f3a42be36398b9d061bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0697d7ab35beb3a40d8b8db1b7f227a5') in 0.042030 seconds
+  Import took 0.045352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.097329 seconds.
+  path: Assets/Modern UI Pack/Resources/Window Manager/Window Manager.prefab
+  artifactKey: Guid(564de7c2d2a810042a83a7dc2df23971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Resources/Window Manager/Window Manager.prefab using Guid(564de7c2d2a810042a83a7dc2df23971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac248ea698fceeb599c07fcd93bf3a9') in 0.040008 seconds
+  Import took 0.044186 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.695800 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.861200 ms  DeleteObjects: 0.459200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 3.681800 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.563700 ms  DeleteObjects: 0.824700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

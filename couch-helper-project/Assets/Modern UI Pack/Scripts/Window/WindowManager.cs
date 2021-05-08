@@ -38,6 +38,7 @@ namespace Michsky.UI.ModernUIPack
 
         void Start()
         {
+            Debug.Log($"currentWindowIndex {currentWindowIndex} windows.Count {windows.Count}");
             currentButton = windows[currentWindowIndex].buttonObject;
             currentButtonAnimator = currentButton.GetComponent<Animator>();
             currentButtonAnimator.Play(buttonFadeIn);
