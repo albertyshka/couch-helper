@@ -15,11 +15,11 @@ E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56558
+63151
 Successfully changed project path to: E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
 E:/UnityProjects/Couch Helper Repo/couch-helper/couch-helper-project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 56.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,271 +35,97 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001400 seconds.
+Registered in 0.001403 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.033 seconds
+- Completed reload, in  2.246 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000837 seconds.
+Registered in 0.001141 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 97.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.439 seconds
+- Completed reload, in  1.381 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.9 MB.
+Unloading 1885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.380400 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.076000 ms MarkObjects: 1.969000 ms  DeleteObjects: 0.142300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(9d28d00e0b9720b4ba96738b909508cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Bold.ttf using Guid(9d28d00e0b9720b4ba96738b909508cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2879837d574a259a6a933b526101ce2c') in 0.139159 seconds
-  Import took 0.142464 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 2.481200 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.151000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-LightItalic.ttf
-  artifactKey: Guid(90267c3e0150a254890013da6caf0dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-LightItalic.ttf using Guid(90267c3e0150a254890013da6caf0dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9e7d4e4c463029d3278ed12cfb2e0c') in 0.014774 seconds
-  Import took 0.017752 seconds .
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dced07946141a818ed93299133b55e1') in 0.027690 seconds
+  Import took 0.030905 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-ThinItalic.ttf
-  artifactKey: Guid(c8df225b8206d7244b15ea99e6d56782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-ThinItalic.ttf using Guid(c8df225b8206d7244b15ea99e6d56782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d564a99f6cbad7940267971a44daa6e') in 0.019645 seconds
-  Import took 0.022704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-MediumItalic.ttf
-  artifactKey: Guid(6deb3750240b59b43872995442751bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-MediumItalic.ttf using Guid(6deb3750240b59b43872995442751bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7229f8944dd53089c44e97f5c87139') in 0.011380 seconds
-  Import took 0.014449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-BoldItalic.ttf
-  artifactKey: Guid(915f55a220917bd408001b31a0284d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-BoldItalic.ttf using Guid(915f55a220917bd408001b31a0284d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f73ea1002cf5746878eb5dbacfb95') in 0.017295 seconds
-  Import took 0.021013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Italic.ttf
-  artifactKey: Guid(6d2c633526e65ff4ba9015029512e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Italic.ttf using Guid(6d2c633526e65ff4ba9015029512e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a15a2315ade55c19fce3c57fcfea94') in 0.010767 seconds
-  Import took 0.013998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-LightItalic.ttf
-  artifactKey: Guid(06b4f3a9dfa7f8f4998a1727f640c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-LightItalic.ttf using Guid(06b4f3a9dfa7f8f4998a1727f640c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64855a81959d87d8924a4b2ef2f7a983') in 0.014124 seconds
-  Import took 0.017534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Off-Canvas Menu/Scenes/OCMSample.unity
-  artifactKey: Guid(fe37837798b29ea4798ab3f25cf71f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Scenes/OCMSample.unity using Guid(fe37837798b29ea4798ab3f25cf71f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a88a2c59a96d0947ca3bb3520de59b') in 0.001962 seconds
-  Import took 0.005015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Regular.ttf
-  artifactKey: Guid(f607b13b353b4084097d84993d6eb7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Regular.ttf using Guid(f607b13b353b4084097d84993d6eb7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c108d7ea881302a2b15051ffa7e1d') in 0.019191 seconds
-  Import took 0.022740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Medium.ttf
-  artifactKey: Guid(4d408cf9645afb84d90f67607fcda6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Medium.ttf using Guid(4d408cf9645afb84d90f67607fcda6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78f80bdd95b76ece02632459c955694') in 0.010705 seconds
-  Import took 0.014480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Light.ttf
-  artifactKey: Guid(fe8aa9d689cfe64478d2f55860f80cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Light.ttf using Guid(fe8aa9d689cfe64478d2f55860f80cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7166657a86f4f75eaedc0752d00c955e') in 0.015335 seconds
-  Import took 0.018436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Italic.ttf
-  artifactKey: Guid(73401eeacc258534f8b78d6f0e60d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Italic.ttf using Guid(73401eeacc258534f8b78d6f0e60d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679dc7f675f3db928f92430b273e2fac') in 0.015839 seconds
-  Import took 0.019487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-BoldItalic.ttf
-  artifactKey: Guid(d08460b8bbe01fb4da55a4ae867260b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-BoldItalic.ttf using Guid(d08460b8bbe01fb4da55a4ae867260b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b15824884151b70538a52ab44e73e8a') in 0.014723 seconds
-  Import took 0.017959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Light.ttf
-  artifactKey: Guid(a8dd5649902fb5d48abc8e634ccf8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Light.ttf using Guid(a8dd5649902fb5d48abc8e634ccf8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735d7fc2abeb96398ae0e9c4a07e4723') in 0.010646 seconds
-  Import took 0.013708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Bold.ttf
-  artifactKey: Guid(3fd61f9e599d1d64ead59c88d36a00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Bold.ttf using Guid(3fd61f9e599d1d64ead59c88d36a00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00485a5f7a74d3e12fb7f8872249a3d4') in 0.008830 seconds
-  Import took 0.012009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Black.ttf
-  artifactKey: Guid(3edcdc09e38746f41bf065a44e91e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Black.ttf using Guid(3edcdc09e38746f41bf065a44e91e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b884bf8e324b2c30ca37a21aef6effdd') in 0.010412 seconds
-  Import took 0.013347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-BlackItalic.ttf
-  artifactKey: Guid(5a233e8038f196549bebb7b26d2b8360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-BlackItalic.ttf using Guid(5a233e8038f196549bebb7b26d2b8360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b956754eb77363285aeff74ee0eace8') in 0.009251 seconds
-  Import took 0.012736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/Roboto-Thin.ttf
-  artifactKey: Guid(31e68c269312b7043af56c30c81e01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/Roboto-Thin.ttf using Guid(31e68c269312b7043af56c30c81e01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363a8b52dc1707d8883165fde7044891') in 0.009218 seconds
-  Import took 0.013232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Regular.ttf
-  artifactKey: Guid(a7bde08761cd59d42882795d0d547ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Fonts/RobotoCondensed-Regular.ttf using Guid(a7bde08761cd59d42882795d0d547ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69180368273f1ea90de4e95a643db69') in 0.007917 seconds
-  Import took 0.011474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.427259 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs
-  artifactKey: Guid(caab8e5190dfa7242be946291e8390ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs using Guid(caab8e5190dfa7242be946291e8390ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9225e5cff1d563b1cb80a72b587c6c0') in 0.001596 seconds
-  Import took 0.004879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080508 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Avatar.prefab
-  artifactKey: Guid(83dc7142ec87b004981c244582693c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Avatar.prefab using Guid(83dc7142ec87b004981c244582693c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810508842748ddbd971312d4dbcb896e') in 0.023972 seconds
-  Import took 0.027651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Divider.prefab
-  artifactKey: Guid(9d06e1e2e63a71945944e70eb7c773b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Divider.prefab using Guid(9d06e1e2e63a71945944e70eb7c773b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6921540cf82c28520fed3927666b0532') in 0.003890 seconds
-  Import took 0.007210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Separator.prefab
-  artifactKey: Guid(fb1410b50a1770745b40c79e4ad7f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Separator.prefab using Guid(fb1410b50a1770745b40c79e4ad7f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d7b8b69700dd198a42bad7e732f019') in 0.003027 seconds
-  Import took 0.006287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Hamburger Button.prefab
-  artifactKey: Guid(8df603e76ba87bc40ade7448dea3142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Hamburger Button.prefab using Guid(8df603e76ba87bc40ade7448dea3142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93fc98a49b7e80f507787c225fcca1a') in 0.010732 seconds
-  Import took 0.013987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Item.prefab
-  artifactKey: Guid(be12e2f45ee5d974e8fe37457d3f2a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Item.prefab using Guid(be12e2f45ee5d974e8fe37457d3f2a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633bb1dcdde646396f5d5a9254ff9a3d') in 0.008953 seconds
-  Import took 0.012081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Header.prefab
-  artifactKey: Guid(ef0c862fb7fedb944b20e7d2643e11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Header.prefab using Guid(ef0c862fb7fedb944b20e7d2643e11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3026f45ef4df9308710f228b74f52573') in 0.004132 seconds
-  Import took 0.007130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Container.prefab
-  artifactKey: Guid(41048bfddb3423e4eb20d30de67240b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off-Canvas Menu/Prefabs/Off-Canvas Menu Container.prefab using Guid(41048bfddb3423e4eb20d30de67240b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61466f516dcdcbfdcb3a3a8e7fbf52f3') in 0.020733 seconds
-  Import took 0.024766 seconds .
+  Time since last request: 5.007874 seconds.
+  path: Assets/Modern UI Pack/Scenes/Demo.unity
+  artifactKey: Guid(ac2a90141e0c9e94a9da39fbf04d5580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Scenes/Demo.unity using Guid(ac2a90141e0c9e94a9da39fbf04d5580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4a75d781339c2510f8df822ea9767e') in 0.001969 seconds
+  Import took 0.005593 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001442 seconds.
+Registered in 0.001189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.231 seconds
+- Completed reload, in  1.091 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.3 MB.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 89.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
-Total: 2.655600 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.255900 ms  DeleteObjects: 0.122900 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 2.607700 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.942900 ms  DeleteObjects: 0.424800 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 72.905776 seconds.
+  path: Assets/Modern UI Pack/Documentation/Documentation.pdf
+  artifactKey: Guid(b46ce24d79d9d2b41b8a42c32a826b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Documentation/Documentation.pdf using Guid(b46ce24d79d9d2b41b8a42c32a826b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668d7a16e7d30c8d3ac1982347a4a3c') in 0.059678 seconds
+  Import took 0.064217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.538563 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a736da710fc49c944a5d81ea9a1847d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a736da710fc49c944a5d81ea9a1847d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a94bcef3efcfb234ae070ac98d96f0') in 0.001623 seconds
+  Import took 0.005494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.643981 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(b3b45f9a2b6d74949ab98ef1999b202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(b3b45f9a2b6d74949ab98ef1999b202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0ccdbea50793b436046a077dd01c43') in 0.001939 seconds
+  Import took 0.005356 seconds .
+
