@@ -19,7 +19,7 @@ namespace DataBank
 
         public GroupDb() : base()
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ( " +
                 KEY_ID + " TEXT PRIMARY KEY, " +
                 KEY_NAME + " TEXT, " +
@@ -28,9 +28,9 @@ namespace DataBank
             dbcmd.ExecuteNonQuery();
         }
 
-        public void addData(GroupEntity group)
+        public void AddData(GroupEntity group)
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "INSERT INTO " + TABLE_NAME
                 + " ( "
@@ -40,56 +40,56 @@ namespace DataBank
 
                 + "VALUES ( '"
                 + group._id + "', '"
-                + group._name + "', "
+                + group._name + "', '"
                 + group._classCost + "' )";
             dbcmd.ExecuteNonQuery();
         }
 
-        public override SqliteDataReader getDataById(int id)
+        public override SqliteDataReader GetDataById(int id)
         {
-            return base.getDataById(id);
+            return base.GetDataById(id);
         }
 
-        public override SqliteDataReader getDataByString(string str)
+        public override SqliteDataReader GetDataByString(string str)
         {
             Debug.Log(Tag + "Getting Location: " + str);
 
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "SELECT * FROM " + TABLE_NAME + " WHERE " + KEY_ID + " = '" + str + "'";
             return dbcmd.ExecuteReader();
         }
 
-        public override void deleteDataByString(string id)
+        public override void DeleteDataByString(string id)
         {
             Debug.Log(Tag + "Deleting Location: " + id);
 
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "DELETE FROM " + TABLE_NAME + " WHERE " + KEY_ID + " = '" + id + "'";
             dbcmd.ExecuteNonQuery();
         }
 
-        public override void deleteDataById(int id)
+        public override void DeleteDataById(int id)
         {
-            base.deleteDataById(id);
+            base.DeleteDataById(id);
         }
 
-        public override void deleteAllData()
+        public override void DeleteAllData()
         {
             Debug.Log(Tag + "Deleting Table");
 
-            base.deleteAllData(TABLE_NAME);
+            base.DeleteAllData(TABLE_NAME);
         }
 
-        public override SqliteDataReader getAllData()
+        public override SqliteDataReader GetAllData()
         {
-            return base.getAllData(TABLE_NAME);
+            return base.GetAllData(TABLE_NAME);
         }
 
-        public SqliteDataReader getLatestTimeStamp()
+        public SqliteDataReader GetLatestTimeStamp()
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "SELECT * FROM " + TABLE_NAME + " ORDER BY " + KEY_CREATION_DATE + " DESC LIMIT 1";
             return dbcmd.ExecuteReader();

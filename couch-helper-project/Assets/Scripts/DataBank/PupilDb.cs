@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace DataBank
 {
-    public class PupicDb : SqliteHelper
+    public class PupilDb : SqliteHelper
     {
         private const string Tag = "Riz: PupilDb:\t";
 
@@ -18,9 +18,9 @@ namespace DataBank
         private const string KEY_CREATION_DATE = "creation_date";
         private string[] COLUMNS = new string[] { KEY_ID, KEY_FULL_NAME, KEY_BIRTHDAY, KEY_DOCUMENTS_DATA, KEY_PUPIL_PHONE_NUMBER, KEY_RELATIVE_NAME, KEY_RELATIVE_PHONE, KEY_CREATION_DATE };
 
-        public PupicDb() : base()
+        public PupilDb() : base()
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ( " +
                 KEY_ID + " TEXT PRIMARY KEY, " +
                 KEY_FULL_NAME + " TEXT, " +
@@ -33,9 +33,9 @@ namespace DataBank
             dbcmd.ExecuteNonQuery();
         }
 
-        public void addData(PupilEntity pupil)
+        public void AddData(PupilEntity pupil)
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "INSERT INTO " + TABLE_NAME
                 + " ( "
@@ -58,46 +58,46 @@ namespace DataBank
             dbcmd.ExecuteNonQuery();
         }
 
-        public override SqliteDataReader getDataById(int id)
+        public override SqliteDataReader GetDataById(int id)
         {
-            return base.getDataById(id);
+            return base.GetDataById(id);
         }
 
-        public override SqliteDataReader getDataByString(string str)
+        public override SqliteDataReader GetDataByString(string str)
         {
             Debug.Log(Tag + "Getting Location: " + str);
 
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "SELECT * FROM " + TABLE_NAME + " WHERE " + KEY_ID + " = '" + str + "'";
             return dbcmd.ExecuteReader();
         }
 
-        public override void deleteDataByString(string id)
+        public override void DeleteDataByString(string id)
         {
             Debug.Log(Tag + "Deleting Location: " + id);
 
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "DELETE FROM " + TABLE_NAME + " WHERE " + KEY_ID + " = '" + id + "'";
             dbcmd.ExecuteNonQuery();
         }
 
-        public override void deleteDataById(int id)
+        public override void DeleteDataById(int id)
         {
-            base.deleteDataById(id);
+            base.DeleteDataById(id);
         }
 
-        public override void deleteAllData()
+        public override void DeleteAllData()
         {
             Debug.Log(Tag + "Deleting Table");
 
-            base.deleteAllData(TABLE_NAME);
+            base.DeleteAllData(TABLE_NAME);
         }
 
-        public override SqliteDataReader getAllData()
+        public override SqliteDataReader GetAllData()
         {
-            return base.getAllData(TABLE_NAME);
+            return base.GetAllData(TABLE_NAME);
         }
 
 /*        public SqliteDataReader getNearestLocation(LocationInfo loc)
@@ -116,9 +116,9 @@ namespace DataBank
             return dbcmd.ExecuteReader();
         }*/
 
-        public SqliteDataReader getLatestTimeStamp()
+        public SqliteDataReader GetLatestTimeStamp()
         {
-            SqliteCommand dbcmd = getDbCommand();
+            SqliteCommand dbcmd = GetDbCommand();
             dbcmd.CommandText =
                 "SELECT * FROM " + TABLE_NAME + " ORDER BY " + KEY_CREATION_DATE + " DESC LIMIT 1";
             return dbcmd.ExecuteReader();

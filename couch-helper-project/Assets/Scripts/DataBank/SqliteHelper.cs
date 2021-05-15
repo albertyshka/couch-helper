@@ -31,55 +31,55 @@ namespace DataBank
         }
 
         // virtual functions
-        public virtual SqliteDataReader getDataById(int id)
+        public virtual SqliteDataReader GetDataById(int id)
         {
             Debug.Log(Tag + "This function is not implemnted");
             throw null;
         }
 
-        public virtual SqliteDataReader getDataByString(string str)
+        public virtual SqliteDataReader GetDataByString(string str)
         {
             Debug.Log(Tag + "This function is not implemnted");
             throw null;
         }
 
-        public virtual void deleteDataById(int id)
+        public virtual void DeleteDataById(int id)
         {
             Debug.Log(Tag + "This function is not implemented");
             throw null;
         }
 
-        public virtual void deleteDataByString(string id)
+        public virtual void DeleteDataByString(string id)
         {
             Debug.Log(Tag + "This function is not implemented");
             throw null;
         }
 
-        public virtual SqliteDataReader getAllData()
+        public virtual SqliteDataReader GetAllData()
         {
             Debug.Log(Tag + "This function is not implemented");
             throw null;
         }
 
-        public virtual void deleteAllData()
+        public virtual void DeleteAllData()
         {
             Debug.Log(Tag + "This function is not implemnted");
             throw null;
         }
 
-        public virtual SqliteDataReader getNumOfRows()
+        public virtual SqliteDataReader GetNumOfRows()
         {
             Debug.Log(Tag + "This function is not implemnted");
             throw null;
         }
 
         //helper functions
-        public SqliteCommand getDbCommand()
+        public SqliteCommand GetDbCommand()
         {
             return db_connection.CreateCommand();
         }
 
-        public SqliteDataReader getAllData(string table_name)
+        public SqliteDataReader GetAllData(string table_name)
         {
             SqliteCommand dbcmd = db_connection.CreateCommand();
             dbcmd.CommandText =
@@ -88,14 +88,14 @@ namespace DataBank
             return reader;
         }
 
-        public void deleteAllData(string table_name)
+        public void DeleteAllData(string table_name)
         {
             SqliteCommand dbcmd = db_connection.CreateCommand();
             dbcmd.CommandText = "DROP TABLE IF EXISTS " + table_name;
             dbcmd.ExecuteNonQuery();
         }
 
-        public SqliteDataReader getNumOfRows(string table_name)
+        public SqliteDataReader GetNumOfRows(string table_name)
         {
             SqliteCommand dbcmd = db_connection.CreateCommand();
             dbcmd.CommandText =
@@ -104,7 +104,7 @@ namespace DataBank
             return reader;
         }
 
-        public void close()
+        public void Close()
         {
             db_connection.Close();
         }

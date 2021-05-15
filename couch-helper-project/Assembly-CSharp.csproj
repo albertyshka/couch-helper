@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DataBank\SqliteTest.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSliderEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSliderEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicWithIconEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeSlider.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\DataBank\SqliteHelper.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradientEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicWithIcon.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButtonEditor.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoListShadow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderManagerEditor.cs" />
+    <Compile Include="Assets\Scripts\DataBank\GroupEntity.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManager.cs" />
@@ -104,6 +107,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicEditor.cs" />
+    <Compile Include="Assets\Scripts\DataBank\PupilDb.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Animated Icon\AnimatedIconHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -111,6 +115,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Fixes\LayoutGroupPositionFix.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerWithIconEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManager.cs" />
+    <Compile Include="Assets\Scripts\DataBank\ClassDb.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\LaunchURL.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelectEditor.cs" />
@@ -119,6 +124,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Scripts\DataBank\PupilEntity.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoopEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -133,6 +139,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelectorEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSwitch.cs" />
+    <Compile Include="Assets\Scripts\DataBank\DbTestBehaviourScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManagerEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerScrollbar.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManager.cs" />
@@ -143,6 +150,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\DataBank\GroupDb.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBar.cs" />
@@ -154,6 +162,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowDragger.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManager.cs" />
+    <Compile Include="Assets\Scripts\DataBank\ClassEntity.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
@@ -162,11 +171,8 @@
     <Compile Include="Assets\Off-Canvas Menu\Scripts\OCMController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\DataBank\SqliteTest.cs" />
-    <Compile Include="Assets\Scripts\DataBank\SqliteHelper.cs" />
-    <Compile Include="Assets\Scripts\DataBank\PupilEntity.cs" />
-    <Compile Include="Assets\Scripts\DataBank\PupilDb.cs" />
-    <Compile Include="Assets\Scripts\DataBank\DbTestBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\UI\GroupList.cs" />
+    <Compile Include="Assets\Scripts\UI\GroupLine.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
