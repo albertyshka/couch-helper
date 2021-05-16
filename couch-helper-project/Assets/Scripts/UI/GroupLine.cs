@@ -6,11 +6,12 @@ using Michsky.UI.ModernUIPack;
 
 public class GroupLine : MonoBehaviour
 {
-    [SerializeField] private ButtonManagerBasic _groupName;
+    [SerializeField] private ButtonManager _groupName;
 
-    public void SetGroupName(string name)
+    public void SetName(string name)
 	{
 		Debug.Log($"setting name {name}");
 		_groupName.buttonText = name;
+		_groupName.UpdateUI();
 	}
 }

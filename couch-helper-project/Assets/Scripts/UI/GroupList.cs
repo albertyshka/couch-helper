@@ -7,7 +7,7 @@ using System;
 
 public class GroupList : MonoBehaviour
 {
-    [SerializeField] private GameObject _groupLine;
+    [SerializeField] private GameObject _linePrefab;
 
 	public void UpdateView()
 	{
@@ -30,7 +30,7 @@ public class GroupList : MonoBehaviour
 				$"_name {entity._name} " +
 				$"_classCost {entity._classCost}");
 
-			PasteGroupLine(entity);
+			PasteLine(entity);
 
 			myList.Add(entity);
 		}
@@ -47,11 +47,11 @@ public class GroupList : MonoBehaviour
 		}
 	}
 
-	private void PasteGroupLine(GroupEntity groupEntity)
+	private void PasteLine(GroupEntity groupEntity)
 	{
-		var groupLine = Instantiate(_groupLine, transform);
+		var groupLine = Instantiate(_linePrefab, transform);
 		var script = groupLine.GetComponent<GroupLine>();
 
-		script.SetGroupName(groupEntity._name);
+		script.SetName(groupEntity._name);
 	}
 }

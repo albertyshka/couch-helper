@@ -10,7 +10,7 @@ public class DbTestBehaviourScript : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-/*		PupilDb mLocationDb = new PupilDb();
+		PupilDb mLocationDb = new PupilDb();
 
 		//Add Data
 		mLocationDb.AddData(new PupilEntity("0", "AR", new System.DateTime(2006, 12, 7), "0.007", "93745", "mom", "63463"));
@@ -24,7 +24,7 @@ public class DbTestBehaviourScript : MonoBehaviour
 
 
 		//Fetch All Data
-		PupilDb mLocationDb2 = new PupilDb();
+/*		PupilDb mLocationDb2 = new PupilDb();
 		SqliteDataReader reader = mLocationDb2.GetAllData();
 
 		int fieldCount = reader.FieldCount;
